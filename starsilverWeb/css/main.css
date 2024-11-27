@@ -1,0 +1,156 @@
+a {
+    color: white;
+}
+a:hover {
+    color:cyan;
+}
+a:visited {
+    color: rgb(178, 178, 178);
+}
+
+a:visited:hover {
+    color:cyan;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    min-width: 900px;
+    color:white;
+  }  
+nav {
+    background-image: url("../html/images/nav_bg.jpg");
+    height:50px;
+  }
+#navtop {
+    float: right;
+    height: 40px;
+    padding-top: 10px;
+}
+nav a {
+    margin-left: 30px;
+    text-decoration: overline;
+    color:white;
+}
+.dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: #1b1b1f;
+    min-width: 130px;
+    border-style: double;
+    border-color: #ffffff;
+    border-width: 3px;
+}
+.dropdown-content a {
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+  }
+
+.dropdown:hover .dropdown-content {
+    display:block
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(99, 99, 99);
+  }
+
+main {
+    background-image: url("../html/images/main_rail_bg.png");
+    background-repeat: repeat;
+    background-size: 500px;
+    display: flex;
+}
+.navside {
+    min-width: 10%;
+}
+.main_content {
+    background-color: #ffffff;
+    width: 90%;
+    display:flex;
+    flex-direction: column;
+}
+.navbox {
+    background-color: rgb(75, 70, 66);
+    border-style: dashed;
+    border-color: bisque;
+    border-width: 6px;
+    color: #ffffff;
+    position:sticky;
+    top:0;
+    display:flex;
+    flex-direction: column;
+}
+.navicon {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(29, 35, 41);
+    background-color: aliceblue;
+    margin:10px auto 10px auto;
+}
+.content1 {
+    background-color: rgb(0, 75, 75);
+    margin: 0px;
+}
+.content2 {
+    background-color:rgb(43, 86, 0);
+    margin: 0px;
+}
+.content3 {
+    background-color:rgb(87, 0, 43);
+    margin: 0px;
+}
+.sub_content h2, .sub_content p {
+    margin:0px;
+    padding-left: 20px;
+    color:white;
+}
+.sub_content h2 {
+    font-size: 80px;
+}
+.sub_content p {
+    font-size: x-large;
+}
+.sub_content2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-image:url(../html/images/software_bg1.png);
+    align-items: center;
+}
+.sub_content2 div {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.sub_content3 {
+    background-image: url(../html/images/nav_bg.jpg);
+    text-align:center;
+    margin:0px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    background-image:url(../html/images/software_bg1.png);
+    padding:10px;
+    border-style: dashed;
+    border-width: 8px;
+    border-radius: 20px;
+    width:50%;
+}
+
+.button:hover {
+    color:cyan;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-size: larger;
+}

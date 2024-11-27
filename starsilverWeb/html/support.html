@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SS - Support</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/side.css">
+    <link rel="stylesheet" type="text/css" href="../css/support.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav>
+        <b id="navtop">
+            <div class="dropdown">
+                <a href="support.html">Support</a>
+                <div class="dropdown-content">
+                    <a href="support.html#faq">FAQ</a><br>
+                    <a href="support.html#sysreq">Minimum Requirement</a><br>
+                    <a href="support.html#contact">Contact Us</a>
+                </div>
+                <a href="sign_in.html" style="margin-left:40px">Sign In</a>
+                <a href="cart.html"><img style="margin-right:20px;" src="./images/shopping_cart_icon.png"
+                        height="20"></a>
+                <div class="dropdown">
+                    <a href="aboutus.html">About</a>
+                    <div class="dropdown-content">
+                        <a href="aboutus.html#background">The Team</a><br>
+                        <a href="aboutus.html#software">The Software</a><br>
+                    </div>
+                    <a href="editions.html">Editions</a>
+                    <a href="plugins.html">Plugins</a>
+                    <a href="merchandise.html">Merchandise</a>
+        </b>
+    </nav>
+    <header>
+        <div>
+            <div style="padding-right:10px;">
+                <img src="./images/t_support.png" height="250px">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="navside">
+            <div class="navbox">
+                <div class="navicon">
+                    <a href="index.html"><img src="./images/home.png" height="80px"></a>
+                </div>
+                <div class="navicon">
+                    <a href="./support.html"><img src="./images/headphones.png" height="80px"></a>
+                </div>
+                <div class="navicon">
+                    <a href="sign_in.html"><img src="./images/log-in.png" height="80px"></a>
+                </div>
+                <div class="navicon">
+                    <a href="cart.html"><img src="./images/shopping_cart_icon.png" height="80px"></a>
+                </div>
+            </div>
+        </div>
+        <div class="sub_content3">
+            <h1 id="faq">Frequent Asked Questions</h1>
+            <button type="button" class="expand">I purchased the wrong edition. Can I refund?</button>
+            <div class="content">
+                <p>Yes. You may refund by contacting us through the contact form below. Please provide the following details
+                    in the description box: your order id, your payment method and your reason for refund.</p>
+            </div>
+            <br style="margin: 10px;">
+            <button type="button" class="expand">Will the license key expire?</button>
+            <div class="content">
+                <p>No. Once you purchased a license key, you will gain a permanent access to the software as well as free updates.</p>
+            </div>
+            <br style="margin: 10px;">
+            <button type="button" class="expand">Do I need to register an account to use the license key?</button>
+            <div class="content">
+                <p>Yes, it is compulsory for the user to register an account before they can use the software. However, you may
+                    choose to deactivate and remove your license key at anytime, and activate again on any other account of your choice.
+                </p>
+            </div>
+            <br style="margin: 10px;">
+            <button type="button" class="expand" id="sysreq">What are the system requirements to run the software?</button>
+            <div class="content">
+                <p>You are required to have the following minimum requirements to run the software optimally:</p>
+                <ul>
+                    <li>OS: XP or Vista or 7 or 8.</li>
+                    <li>Processor: Intel Core i5 2400.</li>
+                    <li>Memory: 2 GB RAM.</li>
+                    <li>Graphics: Nvidia Geforce GTS 450.</li>
+                    <li>DirectX: Version 9.0c.</li>
+                    <li>Storage: 25 GB available space.</li>
+                    <li>Sound Card: DirectX compatible sound card.</li>
+                </ul>
+            </div>
+            <script src="../css/support.js"></script>
+            <br>
+            <hr style="width:100%;">
+            <br>
+            <div style="width:70%">
+                <h1 id="contact">Contact Form</h1>
+                <form name="form" action="support.html" onsubmit="return validate()" method="POST">
+                    <div class="space">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" size="35" maxlength="35" name="na_me">
+                    </div>
+                    <div class="space">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" size="35" maxlength="35" name="em_ail">
+                    </div>
+                    <div class="space">
+                        <label for="desc">Description</label>
+                        <textarea type="text" id="desc" row="5" column="10" maxlength="200" name="des_c"></textarea>
+                    </div>
+                    <div class="space">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p><a href="#">>> Back to Top <<< /a>
+                    <p>
+                        Our social media: &nbsp;<a href="#"><img src="./images/twitter_logo.png" height="20"></a>&nbsp;
+                        <a href="#"><img src="./images/youtube_logo.png" height="20"></a>
+                    </p>
+                    <small><i>Starsilver Studio &copy; All right reserved.</i></small>
+    </footer>
+
+</body>
+
+</html>

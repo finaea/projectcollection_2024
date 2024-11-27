@@ -1,0 +1,23 @@
+header {
+    clear:both;
+    background-image: url("../html/images/stock_femaleofficesoftware.gif");
+    height:75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 400px;
+}
+header > div {
+    
+    display: flex;
+    align-items: center;
+    background-image: url(../html/images/border_logo.png);
+    background-size: cover;
+    padding: 50px;
+    color: #FFFFFF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}

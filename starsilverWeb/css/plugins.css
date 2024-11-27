@@ -1,0 +1,9 @@
+.sub_content3 {
+    text-align: left;
+    width:60%;
+}
+
+.sub_sub_content {
+    display: flex;
+    margin:10px;
+}
