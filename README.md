@@ -20,8 +20,8 @@ This game puts a unique twist on Minesweeper, challenging players to locate hidd
 6. Data Hashing  
 This program can stores and modify data items (key and description) using Open Addressing & Separate Chaining algorithms.
 
-7. Digit Recognition
+7. Digit Recognition  
 This program recognise handwritten digit using the MNIST dataset by implementing and training a neural network model.
 
-8. Optimized Air Conditioning
+8. Optimized Air Conditioning  
 This program process the optimized settings for Fan Speed and Compressor Efficiency based on inside and outside temperature input using Fuzzy System.
